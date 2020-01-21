@@ -21,5 +21,5 @@ end
 end
 
 def valid_phone_number?(phone)
-  if phone.scan()
+  if phone.match(/)
 end
